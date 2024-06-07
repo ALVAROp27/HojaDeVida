@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de vida</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Hoja de Vida</h1>
+        <nav>
+            <ul>
+                <li><a href="#InformacionPersonal">InformacionPersonal</a></li>
+                <li><a href="#Educacion">Educacion e informacion</a></li>
+                <li><a href="#habilidades">Aptitudes y pasatiempos</a></li>
+                <li><a href="#Lenguas">Lenguas</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="name">
+        <div class="img">
+            <img src="FtPerfil.jpg" alt="">
+        </div>
+        <div class="content">
+            <p class="p-1">Alvaro Andres Palacios Florez</p>
+            <p class="p-2">18 años, &nbsp; Aprendiz</p>
+        </div>
+    </div>
+
+    <div class="info" id="InformacionPersonal">
+        <p class="tituloSeccion">Informacion Personal </p>
+        <p class="tituloInfo">Nombres y Apellidos:</p>
+        <p class="infoInfo">Alvaro Andres Palacios Florez</p><br>
+        <p class="tituloInfo">Fecha de nacimiento y Lugar de nacimiento:</p>
+        <p class="infoInfo">24 de abril del 2006, Soledad, Atlantico</p><br>
+        <p class="tituloInfo">Numero de documento:</p>
+        <p class="infoInfo">CC: 1043130248</p><br>
+        <p class="tituloInfo">Telefono:</p>
+        <p class="infoInfo">3243023546</p><br>
+        <p class="tituloInfo">Email:</p>
+        <p class="infoInfo">AlvaroPalacios2419@gmail.com</p><br>
+        <p class="tituloInfo">Direccion:</p>
+        <p class="infoInfo">Calle 77A1 # 6A-35 Ciudad Bonita</p>
+        
+    </div>
+
+    <div class="info" id="Educacion">
+        <p class="tituloSeccion">Educacion e informacion: </p>
+        <p class="tituloInfo">I.E Jesus Misericordioso:</p>
+        <p class="infoInfo">Bachiller</p><br>
+        <p class="tituloInfo">SENA(Cursando):</p>
+        <p class="infoInfo">Analisis y desarrollo de software</p>
+    </div>
+
+    <div class="info" id="habilidades">
+        <p class="tituloSeccion">Aptitudes y pasatiempos </p>
+        <p class="tituloInfo">Aptitudes</p>
+        <p class="infoInfo">Soy activo y agil, me gusta el trabajo en equipo, y ayudar siempre que pueda economizo mucho mis tareas y se aceptar criticas de manera construtiva, y tengo la capacidad de aprender de una manera muy rapida.</p><br>
+        <p class="tituloInfo">Pasatiempos:</p>
+        <span>Desarrollo Web</span>
+        <span>Futbol</span>
+        <span>Video Juegos</span>
+        <span>Leer</span>
+    </div>
+
+    <div class="info" id="Lenguas">
+        <p class="tituloSeccion">Lenguas </p>
+        <p class="tituloInfo">Materno:</p>
+        <span>Español</span><br>
+        <p class="tituloInfo">Ingles:</p>
+        <p class="infoInfo">Nivel Basico de ingles</p>
+    </div>
+
+    <div class="info" id="Contacto">
+        <div id="contact">
+            <div>
+                <h1 class="tituloSeccion">Contactame</h1>
+            </div>
+            <div>
+                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                    <div>
+                        <div>
+                            <input type="text" id="name" placeholder="Nombre" required="required" data-validation-required-message="Ingresa tu nombre" />
+                        </div>
+                        <div>
+                            <input type="email" id="email" placeholder="Email" required="required" data-validation-required-message="Ingresa tu email" />
+                        </div>
+                    </div>
+                    <div>
+                        <textarea rows="5" id="message" placeholder="Mensaje" required="required" data-validation-required-message="Por favor ingresa tu mensaje"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" id="sendMessageButton">Enviar Mensaje</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
